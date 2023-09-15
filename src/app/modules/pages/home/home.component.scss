@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 540px;
+  border-left: 1px solid #34383a;
+  border-right: 1px solid #34383a;
+  background-color: #181a1b;
+}
+
+.header {
+  width: 100%;
+  h3 {
+    margin: 0.8rem;
+  }
+  border-bottom: 1px solid #34383a;
+}
+
+.roots {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-size: 0.9rem;
+}
+
+.root {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.root:hover {
+  background-color: #16191b;
+}
+
+.tab-view {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 0;
+}
+.tab-bar {
+  background-color: #1d9bf0;
+  height: 4px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  border-radius: 1rem;
+}
