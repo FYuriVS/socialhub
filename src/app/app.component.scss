@@ -1,14 +1,20 @@
 .container {
+  position: relative;
   display: flex;
   width: 85%;
   justify-content: center;
   margin: 0 auto;
 }
 .side-bar {
+  position: fixed;
+  top: 0;
+  left: 7rem;
   width: 21.5%;
 }
 
 .main {
+  position: absolute;
+  left: 15.7rem;
   display: flex;
   width: 78.5%;
 }

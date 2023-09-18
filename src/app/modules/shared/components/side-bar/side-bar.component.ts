@@ -8,10 +8,11 @@ import { Sections } from '../../interfaces';
 })
 export class SideBarComponent {
   sections: Sections[] = [
+    { icon: 'pi pi-th-large', title: '' },
     { icon: 'pi pi-home', title: 'Home' },
-    { icon: 'pi pi-home', title: 'Explore' },
-    { icon: 'pi pi-home', title: 'Notifications' },
-    { icon: 'pi pi-home', title: 'Messages' },
+    { icon: 'pi pi-search', title: 'Explore' },
+    { icon: 'pi pi-bell', title: 'Notifications' },
+    { icon: 'pi pi-send', title: 'Messages' },
   ];
   constructor() {}
 }

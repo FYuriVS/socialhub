@@ -28,6 +28,11 @@
         />
       </div>
     </div>
-    <div class="post-reactions"></div>
+    <div class="post-reactions">
+      <div class="action" *ngFor="let action of actions; let i = index">
+        <i [class]="action.icon"></i>
+        <span *ngIf="action.data">{{ action.data }}</span>
+      </div>
+    </div>
   </div>
 </div>

@@ -2,14 +2,15 @@
   display: flex;
   width: 540px;
   border-bottom: 1px solid #34383a;
+  padding: 0.5rem;
 }
 
 .autor-image {
   width: 10%;
-  padding: 0.7rem;
+  padding: 0.7rem 0.3rem;
   img {
-    width: 2rem;
-    height: 2rem;
+    width: 2.2rem;
+    height: 2.2rem;
     border-radius: 100%;
   }
 }
@@ -34,8 +35,38 @@
   gap: 0.7rem;
   .media {
     img {
-      width: 95%;
+      width: 97%;
       border-radius: 1rem;
     }
+  }
+}
+
+.post-reactions {
+  width: 97%;
+  margin-top: 0.3rem;
+  justify-content: space-between;
+  display: flex;
+}
+
+.action {
+  i {
+    padding: 0.3rem;
+    border-radius: 100%;
+  }
+  display: flex;
+  padding: 0.3rem;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  border-radius: 5rem;
+}
+
+.action:hover {
+  background-color: rgba(29, 155, 240, 0.5);
+  i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(29, 155, 240, 1);
   }
 }
